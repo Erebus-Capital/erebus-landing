@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
+/* Hides scrollbar while preserving scroll functionality */
+html {
+  scrollbar-width: none;         /* Firefox */
+}
+
+body {
+  -ms-overflow-style: none;      /* Internet Explorer 10+ */
+  overflow-y: scroll;            /* Always allow vertical scrolling */
+}
+
+body::-webkit-scrollbar {
+  display: none;                 /* Chrome, Safari, Opera */
+}
+
 /* General layout reset */
 html, body, #root {
   height: 100%;
@@ -7,6 +21,10 @@ html, body, #root {
   padding: 0;
   font-family: 'Inter', sans-serif;
   color: #fff;
+
+  /* Ensure consistent scrollbar appearance 
+  scrollbar-gutter: stable;
+  background-color: #161D22*/
 }
 
 .app-wrapper {
