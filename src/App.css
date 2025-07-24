@@ -55,11 +55,11 @@ html, body, #root {
 .home-logo {
   display: flex;
   align-items: center; /* this centers the logo vertically in header */
-  padding: 0cm 0rem; /* optional, space between logo and nav */
+  padding: 0cm 1rem; /* optional, space between logo and nav */
 }
 
 .home-logo-svg {
-  height: clamp(100px, 15vw, 240px); /* scales between 100px and 240px */
+  height: clamp(100px, 15vw, 200px); /* scales between 100px and 240px */
   width: auto;
   display: block;
 }
@@ -74,9 +74,9 @@ html, body, #root {
 .nav a {
   color: #ccc;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px !important;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   padding: 0rem;
   position: relative;
   display: flex;
