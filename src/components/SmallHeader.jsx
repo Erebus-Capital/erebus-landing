@@ -11,9 +11,10 @@ const SmallHeader = () => (
     </div>
     <nav className="nav">
       <Link to="/privacy">Privacy Policy</Link>
+      <Link to="/cookies">Cookie Policy</Link>
       <Link to="/terms">Terms and Conditions</Link>
-      <Link to="/shareholder">Shareholder Rights Directive</Link>
-      <Link to="/stewardship">UK Stewardship Code</Link>
+      <Link to="/investor">Investor Privacy</Link>
+      <Link to="/disclosure">Disclosure</Link>
     </nav>
   </header>
 );
