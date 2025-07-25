@@ -14,9 +14,10 @@ function App() {
           <Routes>
             <Route path="/" element={<HeaderWrapper><Home /></HeaderWrapper>} />
             <Route path="/privacy" element={<LegalPage page="privacy" />} />
+            <Route path="/cookies" element={<LegalPage page="cookies" />} />
             <Route path="/terms" element={<LegalPage page="terms" />} />
-            <Route path="/shareholder" element={<LegalPage page="shareholder" />} />
-            <Route path="/stewardship" element={<LegalPage page="stewardship" />} />
+            <Route path="/investor" element={<LegalPage page="investor" />} />
+            <Route path="/disclosure" element={<LegalPage page="disclosure" />} />
           </Routes>
         </main>
         <Footer />
